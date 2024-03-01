@@ -1,11 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
   width: 1024px;
   height: 70px;
-  background-color: #ec715f
+  background-color: #ec715f;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .mysite {
   height: 70px;
+  margin-right: auto;
 }
 
 nav {
@@ -14,8 +24,32 @@ nav {
 
 .nav-item {
   font-size: 16px;
-  /*color: #FAFAFA;*/
+  color: #FAFAFA;
   margin: 0 30px;
   display: inline-block;
   list-style: none;
+}
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  margin: 0 auto;
+  background-image: url("img5/mv.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  text-align: center;
+}
+.main-visual-name {
+  padding-top:200px;
+  font-size: 64px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
 }
